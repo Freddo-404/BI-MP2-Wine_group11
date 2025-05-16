@@ -14,8 +14,8 @@ from stats import visualization
 # Function to display the homepage content
 def show_homepage():
     st.title('Homepage')
-    st.write('This Project is an analysis of pollution data in different countries and some measurements for different categories of pollution.')
-    st.write("Made by: Tobias, XiaoXuan, Andreas og Chris")
+    
+    st.write("Made by: Ferdinand, Frederik, Jonas and Daniel")
 
 def show_wine_quality():
     st.header("Wine Quality Information")
