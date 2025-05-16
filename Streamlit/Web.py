@@ -23,7 +23,7 @@ def show_wine_quality():
     # Set up Wikipedia API with proper user agent
     wiki_wiki = wikipediaapi.Wikipedia(
         language='en',
-        user_agent='WineQualityApp/1.0 (ferdinand.a.vestergaard@gmail.com)'  # <-- Use your actual contact
+        user_agent='WineQualityApp/1.0 (ferdinand.a.vestergaard@gmail.com)'  
     )
 
     # Get the Wikipedia page for Wine
@@ -35,7 +35,7 @@ def show_wine_quality():
         st.write(wine_page.summary)
 
         st.subheader("Watch a related video on Wine Quality")
-        st.video("https://www.youtube.com/watch?v=ZSZt4QD3eXk")  # You can replace this with a better video
+        st.video("https://www.youtube.com/watch?v=ZSZt4QD3eXk")  
     else:
         st.error("Could not fetch information from Wikipedia.")
 
